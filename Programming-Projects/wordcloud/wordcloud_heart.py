@@ -8,13 +8,13 @@ import random
 # 1️⃣ 定义词频字典
 # -------------------------
 frequencies = {
-    "give or take": 10,
-    "VSCode": 7,
-    "WordCloud": 8,
-    "Visualization": 5,
-    "Example": 6,
-    "Code": 4,
-    "Fun": 3,
+    "mind my own business": 10,
+    "get the hint": 7,
+    "make a scene": 8,
+    "fed up with": 5,
+    "cold calls": 6,
+    "in the mood for it": 4,
+    "patience was wearing thin": 3,
     "Learn": 5,
     "Project": 4,
     "Data": 6
