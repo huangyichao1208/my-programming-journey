@@ -1,0 +1,1 @@
+My coding journey, featuring project examples and notes on key programming concepts. 
