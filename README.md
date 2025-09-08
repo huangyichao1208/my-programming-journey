@@ -29,3 +29,8 @@ vscode in locoal file, run:
 1 git add . \
 2 git commit -m "updated"\
 3 git push origin main
+git add .
+git commit -m "updated"
+git push origin main
+
+**ezgif.com - gif converter**

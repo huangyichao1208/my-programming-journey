@@ -64,12 +64,17 @@ function Counter() {
     </>
   );
 }
+export default Counter;
 ```
+demo -2:
+![弹窗效果演示](./react-project1/assets/demo-2.gif)
 
 ```jsx
 //3: string
 import { useState } from "react";
-function InputExample() {
+import "./App.css"; // 可以保留，或者如果你不需要默认样式可以删除
+
+function App() {
   const [text, setText] = useState("");
 
   return (
@@ -83,8 +88,10 @@ function InputExample() {
     </>
   );
 }
-
+export default App;
 ```
+demo -3:
+![弹窗效果演示](./react-project1/assets/demo-3.gif)
 
 ```jsx
 //4: object/array
@@ -109,8 +116,10 @@ function Cart() {
     </>
   );
 }
-
+export default Cart;
 ```
+demo -4:
+![弹窗效果演示](./react-project1/assets/demo-4.gif)
 
 # Setup Instructions
 
@@ -121,10 +130,13 @@ function Cart() {
 1-3 name the project: react-project1; \
 seclect a framework: react;\
  a variant: JavaScript + SWC;\
-1-4 cd react-project1\
+1-4 cd /Users/roger/Desktop/my-programming-journey/Programming-Projects/react-state-and-effects/react-project1\
 npm install\
 npm run dev (**command+local link in vscode terminal**) \
 1-5 click following path: /Users/roger/Desktop/my-programming-journey/Programming-Projects/react-state-and-effects/react-project1/src/App.jsx, replace the existing codes with code block 1. \
-1-6 bonus: no need to run npm start, an advantange vite over CRA.
+1-6: new terminal run:\
+cd /Users/roger/Desktop/my-programming-journey/Programming-Projects/react-state-and-effects/react-project1\
+npm run dev
+
 
 

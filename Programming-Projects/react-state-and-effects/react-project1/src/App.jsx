@@ -1,15 +1,22 @@
 import { useState } from "react";
-import "./App.css"; // 引入 CSS 文件
 
-function ModalExample() {
-  const [isOpen, setIsOpen] = useState(false);
+function Cart() {
+  const [cart, setCart] = useState([]);
+
+  const addItem = (item) => {
+    setCart([...cart, item]);
+  };
 
   return (
     <>
-      <button onClick={() => setIsOpen(!isOpen)}>切换弹窗</button>
-      {isOpen && <div>这是一个弹窗</div>}
+      <button onClick={() => addItem("苹果")}>加入苹果</button>
+      <button onClick={() => addItem("香蕉")}>加入香蕉</button>
+      <ul>
+        {cart.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
     </>
   );
 }
-
-export default ModalExample;
+export default Cart;
