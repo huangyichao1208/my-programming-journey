@@ -47,7 +47,7 @@ function ModalExample() {
 export default ModalExample;
 ```
 demo -1:
-<video src="./react-project1/assets/demo-1.mp4" controls muted autoplay loop></video>
+![弹窗效果演示](./react-project1/assets/demo-1.gif)
 
 ```jsx
 //2: number
